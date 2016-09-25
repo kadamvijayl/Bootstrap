@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Vijay L Kadam">
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="js/jquery-3.1.0.js"></script>
+    <!-- angularjs -->
+    <script src="js/angular.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>	
+ </head>
+<body>
+<div class="container">
+  <div class="page-header">
+    <h4>Bootstrap Form Designing</h4>  
+  </div>
+  <form>
+    <div class="form-group">
+      <label for="name">Enter Name:</label>
+      <input type="text" class="form-control"  id="name" placeholder="Please enter Name" disabled>
+    </div>  
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="Email" class="form-control" required="" id="email" placeholder="Please enter Email" readonly>
+    </div>  
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="Password" class="form-control" id="password" placeholder="Please enter Password">
+    </div>  
+    <div class="form-group">
+      <label for="confirm_password">Confirm Passoword:</label>
+      <input type="Password" class="form-control" id="confirm_password" placeholder="Please enter Password">
+    </div>  
+  </form>  
+
+  <div class="page-header">
+    <h3>Bootstrap Form Designing - Inline Form</h3>  
+  </div>
+  <form class="form-inline">
+    <div class="form-group">
+      <label for="name">Enter Name:</label>
+      <input type="text" class="form-control"  id="name" placeholder="Please enter Name" disabled>
+    </div>  
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="Email" class="form-control" required="" id="email" placeholder="Please enter Email" readonly>
+    </div>  
+
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="Password" class="form-control" id="password" placeholder="Please enter Password">
+    </div>  
+
+    <div class="form-group">
+      <label for="confirm_password">Confirm Passoword:</label>
+      <input type="Password" class="form-control" id="confirm_password" placeholder="Please enter Password">
+    </div>  
+  </form>  
+
+  <div class="page-header">
+    <h1>Bootstrap Form Designing - horizontal Form</h1>  
+  </div>
+  <form class="form-horizontal">
+    <div class="form-group">
+      <label for="name" class="control-label col-md-2">Enter Name:</label>
+      <div class="col-md-10">
+        <input type="text" class="form-control"  id="name" placeholder="Please enter Name" disabled>
+      </div>
+    </div>  
+
+    <div class="form-group">
+      <label for="email" class="control-label col-md-2">Email:</label>
+      <div class="col-md-10">
+        <input type="Email" class="form-control" required="" id="email" placeholder="Please enter Email" readonly>
+      </div>
+    </div>  
+
+    <div class="form-group">
+      <label for="password" class="control-label col-md-2">Password:</label>
+      <div class="col-md-10">
+        <input type="Password" class="form-control" id="password" placeholder="Please enter Password">
+      </div>
+    </div>  
+
+    <div class="form-group">
+      <label for="confirmpassword" class="control-label col-md-2">Confirm Passoword:</label>
+      <div class="col-md-10">
+        <input type="Password" class="form-control" id="confirmpassword" placeholder="Please enter Password">
+      </div>  
+    </div>  
+    <!-- Comments  -->
+    <div class="form-group">
+      <label for="comments" class="control-label col-md-2">comments:</label>
+      <div class="col-md-10">
+        <textarea class="form-control" rows="5"></textarea>
+      </div>  
+    </div>  
+    <!-- Vertical checkbox  -->
+    <div class="form-group">
+      <label class="control-label col-md-2" for="test" >Skills:</label>          
+      <div class="col-md-10">
+        <div class="checkbox"  id="test">
+          <label class="checkbox"><input type="checkbox">HTML</label>
+          <label class="checkbox"><input type="checkbox">Delphi</label>
+          <label class="checkbox"><input type="checkbox">JAVA</label>
+        </div>
+      </div>  
+    </div>
+    <!-- Horizontal checkbox  -->
+    <div class="form-group">
+      <label class="control-label col-md-2">Skills:</label>          
+      <div class="col-md-10">
+        <div class="checkbox" >
+          <label class="checkbox-inline"><input type="checkbox">HTML</label>
+          <label class="checkbox-inline"><input type="checkbox">Delphi</label>
+          <label class="checkbox-inline"><input type="checkbox">JAVA</label>
+        </div>
+      </div>  
+    </div>
+    <!-- Vertical radio  -->
+    <div class="form-group">
+      <label class="control-label col-md-2">Gender:</label>          
+      <div class="col-md-10">
+        <div class="radio" >
+          <label><input type="radio" name="gender">Male</label>
+        </div>
+        <div class="radio" >
+          <label><input type="radio" name="gender">Female</label>
+        </div>  
+      </div>  
+    </div>
+    <!-- Horizontal radio  -->
+    <div class="form-group">
+      <label class="control-label col-md-2">Gender:</label>          
+      <div class="col-md-10">
+        <div class="radio" >
+          <label class=radio-inline"><input type="radio" name="gender">Male</label>
+          <label class=radio-inline"><input type="radio" name="gender">Female</label>
+        </div>  
+      </div>  
+    </div>  
+    <!-- Dropdown control  -->
+    <div class="form-group">
+      <label class="control-label col-md-2">Country:</label>
+      <div class="col-md-10">
+        <select class="form-control">
+            <option>India</option>
+            <option>US</option>
+            <option>UK</option>
+            <option>Russia</option>
+            <option>Japan</option>                                        
+        </select>        
+      </div>
+    </div> 
+    <!-- Button control  -->
+    <div class="form-group">
+      <div class="col-md-offset-2 col-md-10">
+        <button class="btn btn-info">Click to Submit</button>
+      </div>
+    </div>
+  </form>  
+</div>
+
+    <!-- Form Validations -->
+    <form class="form-inline">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" disabled class="form-control">      
+      </div>
+      <div class="form-group has-feedback has-warning">
+        <label>Name</label>
+        <input type="text"  class="form-control"><span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>     
+      </div>
+      <div class="form-group has-feedback has-success">
+        <label>Name</label>
+        <input type="text"  class="form-control"><span class="glyphicon glyphicon-ok form-control-feedback"></span>     
+      </div>
+      <div class="form-group has-feedback has-error">
+        <label>Name</label>
+        <input type="text"  class="form-control"><span class="glyphicon glyphicon-remove form-control-feedback"></span>     
+      </div>
+    </form>  
+
+</body>
+</html>
